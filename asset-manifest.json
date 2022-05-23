@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-contact-list/static/css/main.73a579dc.css",
-    "main.js": "/react-contact-list/static/js/main.eb89d0d4.js",
-    "static/media/search.svg": "/react-contact-list/static/media/search.f7f6378a374fc56d1873.svg",
-    "index.html": "/react-contact-list/index.html",
-    "main.73a579dc.css.map": "/react-contact-list/static/css/main.73a579dc.css.map",
-    "main.eb89d0d4.js.map": "/react-contact-list/static/js/main.eb89d0d4.js.map"
+    "main.css": "/static/css/main.dc3d3b18.css",
+    "main.js": "/static/js/main.eb89d0d4.js",
+    "static/media/search.svg": "/static/media/search.f7f6378a374fc56d1873.svg",
+    "index.html": "/index.html",
+    "main.dc3d3b18.css.map": "/static/css/main.dc3d3b18.css.map",
+    "main.eb89d0d4.js.map": "/static/js/main.eb89d0d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.73a579dc.css",
+    "static/css/main.dc3d3b18.css",
     "static/js/main.eb89d0d4.js"
   ]
 }
