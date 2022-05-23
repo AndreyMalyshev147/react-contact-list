@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  &__main-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+
+    & span {
+
+      & strong, & a {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

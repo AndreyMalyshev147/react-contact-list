@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6, p, a, span, label {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}

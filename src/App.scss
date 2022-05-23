@@ -1,0 +1,21 @@
+/* VARIABLES */
+@import "./assets/style/common/variables/variables";
+
+
+/* BASE */
+@import "./assets/style/common/base/fonts";
+@import "./assets/style/common/base/mixins";
+@import "./assets/style/common/base/reset";
+
+
+/* MAIN */
+@import "./assets/style/main";
+
+
+/* COMPONENTS */
+@import "./assets/style/components/header";
+@import "assets/style/components/navMenu";
+@import "assets/style/components/form";
+@import "assets/style/components/home";
+@import "assets/style/components/contacts";
+@import "assets/style/components/about";
