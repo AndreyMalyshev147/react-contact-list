@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-contact-list/static/css/main.73a579dc.css",
+    "main.js": "/react-contact-list/static/js/main.eb89d0d4.js",
+    "static/media/search.svg": "/react-contact-list/static/media/search.f7f6378a374fc56d1873.svg",
+    "index.html": "/react-contact-list/index.html",
+    "main.73a579dc.css.map": "/react-contact-list/static/css/main.73a579dc.css.map",
+    "main.eb89d0d4.js.map": "/react-contact-list/static/js/main.eb89d0d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73a579dc.css",
+    "static/js/main.eb89d0d4.js"
+  ]
+}
