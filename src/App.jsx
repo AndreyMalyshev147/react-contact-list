@@ -19,19 +19,19 @@ function App() {
       <div className='main-container'>
         <Navbar />
         <Routes>
-          <Route exact path='react-contact-list/' element={<Home />} />
-          <Route path='/contacts' element={<Contacts />} />
-          <Route path='/new-contact' element={<NewContact />} />
-          <Route path='/about' element={<About />} />
+          <Route exact path='react-contact-list/*' element={<Home />} />
+          <Route path='contacts' element={<Contacts />} />
+          <Route path='new-contact' element={<NewContact />} />
+          <Route path='about' element={<About />} />
         </Routes>
 
         {contacts.map(contact => (
           <React.Fragment key={contact.id}>
             <Routes>
-              <Route path={`/contacts/${contact.id}`} element={<ContactInfo contact={contact} />} />
+              <Route path={`contacts/${contact.id}`} element={<ContactInfo contact={contact} />} />
             </Routes>
             <Routes>
-              <Route path={`/edit-contact/${contact.id}`} element={<EditContact contact={contact} />} />
+              <Route path={`edit-contact/${contact.id}`} element={<EditContact contact={contact} />} />
             </Routes>
           </React.Fragment>
         ))}
