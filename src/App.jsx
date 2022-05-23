@@ -19,7 +19,7 @@ function App() {
       <div className='main-container'>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='react-contact-list/' element={<Home />} />
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/new-contact' element={<NewContact />} />
           <Route path='/about' element={<About />} />
