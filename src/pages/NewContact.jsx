@@ -21,7 +21,7 @@ export const NewContact = () => {
       };
 
       dispatch(addContactAction(newContact));
-      navigate('/contacts', { replace: true });
+      navigate('/react-contact-list/contacts', { replace: true });
     }
 
     return;

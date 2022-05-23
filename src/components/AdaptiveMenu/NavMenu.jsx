@@ -19,7 +19,7 @@ export const NavMenu = () => {
         className={`nav-menu__sidebar ${status}`}
       >
         <div className='nav-menu__link'>
-          <NavLink to='/'>
+          <NavLink to='/react-contact-list/'>
             <svg
               fill="#000000"
               xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export const NavMenu = () => {
               Home
             </span>
           </NavLink>
-          <NavLink to='/contacts'>
+          <NavLink to='/react-contact-list/contacts'>
             <svg
               fill="#000000"
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export const NavMenu = () => {
               Contacts
             </span>
           </NavLink>
-          <NavLink to='/about'>
+          <NavLink to='/react-contact-list/about'>
             <svg
               fill="#000000"
               xmlns="http://www.w3.org/2000/svg"

@@ -37,7 +37,7 @@ export const Contacts = () => {
                   .includes(searchValue.toLowerCase())
               );
             }).map(contact => (
-              <NavLink to={`/contacts/${contact.id}`} className='contacts__list-item' key={contact.id}>
+              <NavLink to={`/react-contact-list/contacts/${contact.id}`} className='contacts__list-item' key={contact.id}>
                 <div className='contacts__text contacts__text--photo'>
               <span>
                 {contact.name.slice(0, 1)}
@@ -57,7 +57,7 @@ export const Contacts = () => {
           </div>
       }
       <div className='contacts__btn'>
-        <NavLink to='/new-contact'>+</NavLink>
+        <NavLink to='/react-contact-list/new-contact'>+</NavLink>
       </div>
     </div>
   );

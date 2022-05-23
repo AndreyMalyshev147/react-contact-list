@@ -12,7 +12,7 @@ export const ContactInfo = ({contact}) => {
   const removeContact = (contact) => {
     if (window.confirm('Are you sure?')) {
       dispatch(removeContactAction(contact.id));
-      navigate('/contacts', { replace: true });
+      navigate('react-contact-list/contacts', { replace: true });
     }
 
     return;

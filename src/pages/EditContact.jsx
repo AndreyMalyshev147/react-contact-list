@@ -29,7 +29,7 @@ export const EditContact = ({ contact }) => {
   const editSubmit = (event) => {
     event.preventDefault();
     editContact(input);
-    navigate(`/contacts/${input.id}`, { replace: true });
+    navigate(`/react-contact-list/contacts/${input.id}`, { replace: true });
   };
 
   const handleChange = (event) => {

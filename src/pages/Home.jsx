@@ -8,8 +8,8 @@ export const Home = () => {
         <h1>Contact list</h1>
       </div>
       <div className='home__links'>
-        <NavLink to='/contacts'>Contacts</NavLink>
-        <NavLink to='/about'>About project</NavLink>
+        <NavLink to='/react-contact-list/contacts'>Contacts</NavLink>
+        <NavLink to='/react-contact-list/about'>About project</NavLink>
       </div>
     </div>
   );
