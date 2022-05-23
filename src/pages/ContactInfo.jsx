@@ -12,7 +12,7 @@ export const ContactInfo = ({contact}) => {
   const removeContact = (contact) => {
     if (window.confirm('Are you sure?')) {
       dispatch(removeContactAction(contact.id));
-      navigate('react-contact-list/contacts', { replace: true });
+      navigate('/react-contact-list/contacts', { replace: true });
     }
 
     return;
@@ -20,7 +20,7 @@ export const ContactInfo = ({contact}) => {
 
   return (
     <div className='contact'>
-      <NavLink to='/contacts'>
+      <NavLink to='/react-contact-list/contacts'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -38,7 +38,7 @@ export const ContactInfo = ({contact}) => {
           <span>{contact.name} {contact.surname}</span>
         </div>
         <div className='contact__top contact__top--actions'>
-          <NavLink to={`/edit-contact/${contact.id}`} className='contact__top contact__top--actions edit'>
+          <NavLink to={`/react-contact-list/edit-contact/${contact.id}`} className='contact__top contact__top--actions edit'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"
